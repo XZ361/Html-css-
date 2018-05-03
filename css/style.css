@@ -1,0 +1,272 @@
+/*通用样式*/
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font:14px/24px 'Microsoft YaHei', '宋体',"Helvetica Neue", Helvetica, Arial, sans-serif'';
+}
+.wp {
+    width: 960px;
+    margin: 0 auto;
+}
+.z{
+    float: left;
+}
+.y{
+    float: right;
+}
+.cl{
+    clear: both;
+}
+img{
+    border: none;
+}
+.top{
+    width:100%;
+    height: 24px;
+    line-height: 24px;
+    color: #d8d8d8;
+    background: #303030;
+}
+.top span{
+    margin-right:15px;
+}
+.top span.mr0{
+    margin:0px;
+}
+.top a{
+    color: #d8d8d8;
+    text-decoration: none;
+}
+.top a:hover{
+    color: #f60;
+}
+/*logos*/
+.logos{
+    height:59px;
+    margin:15px 0;
+}
+/*搜索*/
+.select{
+    width:330px;
+    height:41px;
+    margin-top:8px;
+}
+.select td{
+    height:41px;
+}
+.s_z{
+    width:6px;
+    background:url("../images/s_z.jpg") no-repeat;
+}
+.s_c{
+    width:240px;
+    background:url("../images/s_c.jpg") repeat-x;
+}
+.s_y{
+    width:78px;
+    background:url("../images/s_r.jpg") no-repeat;
+}
+.s_c input{
+    height:35px;
+    width:200px;
+    line-height:35px;
+    border:none;
+    margin-top:2px;
+}
+.s_y button{
+    width:78px;
+    height:41px;
+    border:0;
+    background: none;
+    cursor: pointer;
+}
+.dianhua{
+    margin-left:15px;
+}
+.dianhua span{
+    font-size:26px;
+    color:darkred;
+    height:59px;
+    line-height:59px;
+}
+/*导航*/
+.nav{
+    width:100%;
+    height: 39px;
+    background: url("../images/nav_bg.jpg")repeat-x;
+}
+.nav li{
+    float: left;
+    height:39px;
+    line-height:39px;
+    list-style-type: none;
+    padding:0px 28px;
+}
+.nav li.a,.nav li:hover{
+    background:url("../images/nav_hover.jpg" )repeat-x;
+}
+.nav li>a{
+    text-decoration: none;
+    color:white;
+    font-size:16px;
+}
+/*center*/
+.ad{
+    margin-bottom:10px;
+}
+.title{
+    position: relative;
+    padding-bottom:8px;
+    border-bottom:1px solid darkred;
+    margin-bottom:10px;
+}
+.title span{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
+.title a{
+    text-decoration: none;
+    color:darkred;
+}
+.jianjie{
+    width:540px;
+    height:360px;
+    margin-right:20px;
+}
+.ji_c img{
+    float: left;
+    margin:0 10px 10px 0;
+}
+.ji_c p{
+    color: #616161;
+    text-indent: 24px;
+}
+.xw_c {
+
+}
+.xw_c li{
+    position: relative;
+    height:24px;
+    line-height:24px;
+    list-style-type: none;
+    padding-left: 15px;
+    margin-bottom:6px;
+    background: url("../images/list_bg.jpg") no-repeat center left;
+}
+.xw_c li.a{
+    height:76px;
+    background: none;
+    padding:0;
+}
+.xw_c li img{
+    float: left;
+    margin:0 10px 10px 0;
+}
+.xw_c span{
+    position:absolute;
+    right:0;
+    bottom:0px;
+    font-size:12px;
+    color: #888888;
+}
+.xw_c h3{
+    font-weight:normal;
+    font-size:14px;
+}
+.xw_c .a p{
+    color: #888;
+    text-indent: 24px;
+    font-size:12px;
+}
+.xw_c a{
+    color: #616161;
+    text-decoration: none;
+}
+.news{
+    width:400px;
+    height:360px;
+}
+.canpin{
+    width:100%;
+    height:300px;
+}
+.cp_c li {
+    width:151px;
+    height:96px;
+    float: left;
+    margin:0 10px 10px 0;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+}
+.cp_c span{
+    position:absolute;
+    bottom:0;
+    left:0;
+    color: #fff;
+    background: darkred;
+    font-size:14px;
+    height:24px;
+    width:131px;
+    padding:0 10px;
+    overflow: hidden;
+    display: none;
+}
+.cp_c li a:hover span{
+    display: block;
+}
+.cp_c li img{
+    float: left;
+}
+.cp_c li.mr_0{
+    margin-right:0px;
+}
+/*footer*/
+.footer{
+    width:100%;
+    height:103px;
+    background: url("../images/footer_bg.jpg")repeat-x;
+}
+.footer_top{
+    color: #fff;
+    height:80px;
+    line-height:80px;
+}
+.footer_top .z{
+    font-size:16px;
+}
+.footer_top a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_bottom p {
+    color: #f60;
+}
+.footer_bottom a:hover{
+    color: #f60;
+}
+/*
+.footer_bottom li{
+    float:left;
+    color: #d8d8d8;
+    list-style-type: none;
+    margin-right:10px;
+}*/
+.footer_bottom a {
+    margin-left:10px;
+    color: #888;
+    text-decoration: none;
+}
+.fl{
+    position: relative;
+}
+.fl img{
+    position: fixed;
+    right:80px;
+    bottom:115px;
+}
+
